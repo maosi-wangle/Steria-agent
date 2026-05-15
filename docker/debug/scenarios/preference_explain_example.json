@@ -1,0 +1,25 @@
+{
+  "$schema": "./context_probe.schema.json",
+  "name": "preference_explain_example",
+  "turns": [
+    {
+      "role": "user",
+      "content": "以后你解释复杂问题时，先给我一个贯穿始终的例子。"
+    },
+    {
+      "role": "user",
+      "content": "我现在有点困，但还想学一点。"
+    },
+    {
+      "action": "consolidate",
+      "label": "after_preference_signal",
+      "force": true,
+      "archive_all": false
+    },
+    {
+      "role": "user",
+      "content": "解释一下 TCP 和 UDP 的区别。",
+      "final": true
+    }
+  ]
+}

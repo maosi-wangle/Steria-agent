@@ -1,0 +1,78 @@
+# 敏感配置（本地填写，不提交）
+/config.json
+/config.toml
+
+# NcatBot 自动生成的配置文件
+config.yaml
+/docker/.env
+/docker/napcat/runtime/
+/docker/debug/runtime/
+/docker/debug/profiles/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+.venv-wsl/
+.pytest_cache/
+
+# Node.js
+node_modules/
+package-lock.json
+frontend/dashboard/static/
+
+# Compiled plugin panel JS (auto-built from .ts at dashboard startup)
+plugins/*/dashboard_panel.js
+
+# 运行时产物
+logs/
+/logs
+workspace/
+data/
+**/.kv.json
+plugins/**/.data/
+/data
+/memory/
+
+# IDE
+.idea/
+.vscode/
+/evals/
+/tests/regression/
+/scripts/fitbit-monitor/tokens.json
+/scripts/fitbit-monitor/sleep_labels.json
+/scripts/fitbit-monitor/sleep_log.jsonl
+/scripts/fitbit-monitor/fitbit-swagger.json
+/config.backup.20260301-063714.json
+/scripts/fitbit-monitor/monitor.config.toml
+/scripts/fitbit-monitor/monitor.config.local.toml
+/scripts/fitbit-monitor/monitor.config.json
+/scripts/fitbit-monitor/monitor.runtime.log
+/docs/
+/scripts/fitbit-monitor/backups/
+/scripts/fitbit-monitor/stat_events.
+/scripts/fitbit-monitor/static/sleep_diff_report.html
+/.pytest_artifacts/
+/rss/
+
+# Benchmark 运行产物
+benchmark/result*.json
+benchmark/data/
+qa_error_log_*.txt
+lme_error_log_*.txt
+/config.json.bak
+
+# Local AI assistant docs and fitbit event cache
+/CLAUDE.md
+/AGENTS.md
+/scripts/fitbit-monitor/stat_events.json
+/scripts/fitbit-monitor/stat_events_v2.json
+/memory_annotation_from_*.json
+.squad/
+/locks/reviewer.receive.lock
+/locks/worker.receive.lock
+/locks/
+/start.sh
+/private_runtime/
+/private_tests/
