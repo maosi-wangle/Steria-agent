@@ -76,3 +76,7 @@ lme_error_log_*.txt
 /start.sh
 /private_runtime/
 /private_tests/
+
+# Local Windows launcher scripts
+start-akashic-windows.cmd
+start-akashic-windows.ps1
