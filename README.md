@@ -64,8 +64,7 @@ allow_from = ["your_username"]
 
 **个人推荐**
 
-这个项目和 `deepseek-v4-flash` 以及 Qwen 相性比较好，其他模型不保证效果，特别是一些连 XML 输出都做不好的国产模型。  
-通信渠道推荐 Telegram，提供了丰富且好看的流式输出。
+这个项目和 `deepseek-v4-flash` 以及 Qwen 相性比较好
 
 **3. 启动**
 
@@ -90,13 +89,6 @@ uv run python main.py
                 │
                 └── [Drift] ──→ 没东西推时执行后台任务 (SKILL.md)
 ```
-
-| 想看什么 | 文档 |
-|---------|------|
-| 怎么让 agent 主动推送消息、怎么配数据源 | [_handbook/proactive-guide.md](./_handbook/proactive-guide.md) |
-| 怎么写后台任务让 agent 空闲时自动干活 | [_handbook/drift-guide.md](./_handbook/drift-guide.md) |
-| MEMORY.md / SELF.md / consolidation / 记忆怎么流转 | [_handbook/memory-markdown.md](./_handbook/memory-markdown.md) |
-| 怎么写插件介入生命周期、注册工具 | [_handbook/plugins-tutorial.md](./_handbook/plugins-tutorial.md) |
 
 ---
 
